@@ -1,0 +1,10 @@
+.product-card__mobile {
+    display: none;
+    position: absolute;
+    bottom: 0;
+    right: 30px;
+
+    @include vp-767 {
+        display: block;
+    }
+}
